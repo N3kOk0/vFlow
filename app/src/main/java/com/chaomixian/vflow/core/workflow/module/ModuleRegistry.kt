@@ -202,6 +202,7 @@ object ModuleRegistry {
         register(DarkModeModule(), context)
         register(VibrationModule(), context)
         register(FlashlightModule(), context)
+        register(GetBatteryStatusModule(), context)
 
         // Core (Beta) 模块
         // 网络控制组
